@@ -1,0 +1,258 @@
+
+
+@import "all.min.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2, p{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #a8eae3;
+}
+header .container{
+    display: flex;
+    padding: 30px;
+    width: 1200px;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 20%;
+    padding-left: 30px;
+}
+
+
+.menu{
+    width: 80%;
+    padding-right: 60px;
+    text-align: right;
+}
+.menu nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.menu nav ul a:nth-of-type(5){
+    padding: 7px 20px;
+    background-color: #026d02;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+
+.menu nav ul a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+.menu nav ul a:hover{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.menu nav ul a li {
+    list-style: none;
+}
+
+
+/*start of content section*/
+
+.content .container{
+    display: flex;
+    padding: 30px;
+    width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.content .container .col-md-4{
+    width: 33.33%;
+}
+
+
+.content .container .col-md-4:nth-of-type(1){
+    margin-right: 30px;
+}
+
+.content .container .col-md-4:nth-of-type(1) p{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
+.content .container .col-md-4:nth-of-type(1) h1{
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+.content .container .col-md-4:nth-of-type(1) h1 span{
+    color: #026d02;
+}
+
+.content .container .col-md-4:nth-of-type(1) a{
+    padding: 13px;
+    background-color: #026d02;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+
+/*design for login section*/
+.login-section{
+    background-color:#0be0c7 ;
+    padding: 100px;
+}
+
+
+
+.login{
+    width: 600px;
+
+
+    flex: 0 0 auto;
+    margin:  auto;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow:  20px 20px 60px #09bea9,
+    -20px -20px 60px #0dffe5;
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/*start of feature section*/
+
+
+.feature-section{
+    padding: 100px;
+}
+
+
+.feature-section .container{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.feature-section .container .col-md-4{
+    width: 260px;
+    text-align: center;
+}
+
+.feature-section .container .col-md-4 img{
+    max-width: 20%;
+    margin-bottom: 10px;
+}
+.feature-section .container .col-md-4 h2{
+    margin-bottom: 10px;
+
+}
+
+.feature-section .container .col-md-4{
+
+    background-color: #ddf3f2;
+    padding: 30px 0px;
+    margin: 10px;
+}
+
+
+.feature-section .container .col-md-4:hover{
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  20px 20px 60px #bebebe,
+    -20px -20px 60px #ffffff;
+    padding: 30px 0px;
+    margin: 10px;
+}
+
+/*end of feature section*/
+
+/*start of online courses section*/
+
+.Online-courses{
+    margin-bottom: 100px;
+}
+
+.Online-courses .container{
+    width: 1200px;
+    margin: auto;
+}
+
+.Online-courses .container h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.Online-courses .container .courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Online-courses .container .courses .col-md-4 .social-icon{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.Online-courses .container .courses .col-md-4 .social-icon>.col-sm-4:nth-of-type(1){
+    width: 150px;
+}
+.Online-courses .container .courses .col-md-4 {
+    margin: 10px;
+    padding: 10px 10px 30px 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  25px 25px 53px #bdbdbd,
+    -25px -25px 53px #ffffff;
+}
+
+.Online-courses .container .courses .col-md-4 h3{
+    margin-bottom: 10px;
+}
+
+.Online-courses .container .courses .col-md-4 p{
+    margin-bottom: 10px;
+}
+.Online-courses .container .courses .col-md-4 a{
+    color: black;
+    text-decoration: none;
+}
+
+.Online-courses .container .courses .col-md-4 .social-icon{
+    margin-top: 10px;
+}
+
+/*end of online courses section*/
